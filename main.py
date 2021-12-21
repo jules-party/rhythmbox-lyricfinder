@@ -16,7 +16,7 @@ songname = output.split('-', 1)[1]
 print(artistname)
 print(songname)
 
-genius = lyricsgenius.Genius('XvnQ00lrQgH4Vs8G60WgtoGjMTCxdRWnZSMYR6_GI4ZluFmkhYGdnmjuq05U6bro')
+genius = lyricsgenius.Genius('Insert-Key-Here!')
 
 # vv used for testing vv
 # artistname = input("Artist Name: ")
