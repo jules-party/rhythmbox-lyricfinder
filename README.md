@@ -4,7 +4,7 @@
 - Wait for it to to finish, and tada!
 
 ## MODULES TO INSTALL ##
-<p>Easiest method to do this is to run `pip install -r requirements.txt`</p>
+Easiest method to do this is to run `pip install -r requirements.txt`
 <p>But if you want to install these modules manually:</p>
 
 - lyricsgenius
