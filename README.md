@@ -7,6 +7,15 @@
 ```
 alias lyric-finder="bash /home/geck/Py/rhythmbox-lyricfinder/run.sh"
 ```
+## HOW TO SET UP GENIUS API CLIENT ##
+- Go to https://https://genius.com/signup_or_login
+- Create an account
+- When your logged in, you should be redirected to https://genius.com/api-clients
+- Click `New API Client`
+- For the app name just put something like "Lyric Displayer" for easy identification
+- Dont worry about the app icon, it is not needed
+- For both the `App Wesbite URL` and `Redirect URL`, just put http://example.com/ in both fields
+- Then Tada! You're Finished with the setting up the API Client!
 
 ## ACCESS KEY SET UP ##
 - Go to https://genius.com/api-clients
@@ -23,16 +32,6 @@ Easiest method to do this is to run `pip install -r requirements.txt`
 
 - lyricsgenius
 - colorama
-
-## HOW TO SET UP GENIUS API CLIENT ##
-- Go to https://https://genius.com/signup_or_login
-- Create an account
-- When your logged in, you should be redirected to https://genius.com/api-clients
-- Click `New API Client`
-- For the app name just put something like "Lyric Displayer" for easy identification
-- Dont worry about the app icon, it is not needed
-- For both the `App Wesbite URL` and `Redirect URL`, just put http://example.com/ in both fields
-- Then Tada! You're Finished with the setting up the API Client!
 
 ## CREDITS ##
 [crue-ton on github](https://github.com/crue-ton)
