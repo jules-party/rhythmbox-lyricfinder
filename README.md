@@ -28,6 +28,7 @@ alias lyric-finder="bash /home/geck/Py/rhythmbox-lyricfinder/run.sh"
 
 ## MODULES TO INSTALL ##
 Easiest method to do this is to run `pip install -r requirements.txt`
+But if your really lazy, just run the `install.sh` file
 <p>But if you want to install these modules manually:</p>
 
 - lyricsgenius
