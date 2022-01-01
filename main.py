@@ -12,10 +12,12 @@ output = rawoutput.replace('.mp3', '')
 artistname = output.split('-', 1)[0]
 songname = output.split('-', 1)[1]
 
-# Print to show
-print(artistname)
-print(songname)
+# Get rid of space before the songname output
+fixed_songname = songname[1:len(songname)]
 
+# Print both artist name and the fixed song name
+print(artistname)
+print(fixed_songname)
 genius = lyricsgenius.Genius('Insert-Key-Here!')
 
 # vv used for testing vv
