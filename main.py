@@ -19,7 +19,7 @@ songname = rawsongname[1:len(rawsongname)]
 # Print both artist name and the fixed song name
 print(artistname)
 print(songname)
-genius = lyricsgenius.Genius('OzODxkWcP3JfkSd3xyMtSyeLeBmg3FY3wnLl3zEA_jRqETzNUGqU3ThSU4eft0Op')
+genius = lyricsgenius.Genius('Insert-Key-Here!')
 
 # vv used for testing vv
 # artistname = input("Artist Name: ")
