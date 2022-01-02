@@ -1,3 +1,4 @@
+import re
 import lyricsgenius
 from colorama import Fore, init
 from subprocess import check_output
@@ -18,7 +19,7 @@ songname = rawsongname[1:len(rawsongname)]
 # Print both artist name and the fixed song name
 print(artistname)
 print(songname)
-genius = lyricsgenius.Genius('Insert-Key-Here!')
+genius = lyricsgenius.Genius('OzODxkWcP3JfkSd3xyMtSyeLeBmg3FY3wnLl3zEA_jRqETzNUGqU3ThSU4eft0Op')
 
 # vv used for testing vv
 # artistname = input("Artist Name: ")
@@ -28,6 +29,10 @@ genius = lyricsgenius.Genius('Insert-Key-Here!')
 artist = genius.search_artist(artistname, max_songs=3, sort="title")
 song = artist.song(songname)
 
+# Removes those annoying hyperlinks at the end of the song lyrics, thank you ->
+# bdubs1991 and Vuizur on issue #218 on the lyricsgenius github repo!
+fixed_lyrics = re.sub(r"[0-9]+EmbedShare URLCopyEmbedCopy",'',song.lyrics)
+
 # Print song lyrics
-print(song.lyrics)
+print(fixed_lyrics)
 print(f"\n{Fore.CYAN}Thank you for using {Fore.YELLOW}lyrics-displayer!{Fore.CYAN} This was made by me {Fore.YELLOW}*{Fore.GREEN}crue-ton{Fore.YELLOW}*{Fore.CYAN} on github!\n")
