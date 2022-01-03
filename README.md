@@ -5,7 +5,7 @@
 - Wait for it to to finish, and tada!
 - You can also create an alias in your .bash_profile, example:
 ```
-alias lyric-finder="bash /home/geck/Py/rhythmbox-lyricfinder/run.sh"
+alias lyric-finder="bash /home/ae/Py/rhythmbox-lyricfinder/run.sh"
 ```
 ## HOW TO SET UP GENIUS API CLIENT ##
 - Go to https://https://genius.com/signup_or_login
@@ -23,7 +23,7 @@ alias lyric-finder="bash /home/geck/Py/rhythmbox-lyricfinder/run.sh"
 - Select the API client you've created
 - Click `Generate Access Token` which is under Client Access Token
 - Go in to main.py
-- Go to Line 19, and it should say `genius = lyricsgenius.Genius('Insert-Key-Here!')`
+- Go to Line 22, and it should say `genius = lyricsgenius.Genius('Insert-Key-Here!')`
 - Replace the text that is in the quotes with you Access Token
 
 ## MODULES TO INSTALL ##
