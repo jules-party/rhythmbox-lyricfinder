@@ -8,8 +8,11 @@
 - Run the python file (Preferably just run the .sh file)
 - Wait for it to to finish, and tada!
 - You can also create an alias in your .bash_profile, example:
-```
+**Linux/MacOS**
+```bash
 alias lyric-finder="bash /home/ae/Py/rhythmbox-lyricfinder/run.sh"
+or
+alias lyric-finder="sh /home/ae/Py/rhythmbox-lyricfinder/run.sh"
 ```
 ## HOW TO SET UP GENIUS API CLIENT ##
 - Go to https://https://genius.com/signup_or_login
@@ -31,8 +34,20 @@ alias lyric-finder="bash /home/ae/Py/rhythmbox-lyricfinder/run.sh"
 - Replace the text that is in the quotes with you Access Token
 
 ## MODULES TO INSTALL ##
-Easiest method to do this is to run `pip install -r requirements.txt`
-But if your really lazy, just run the `install.sh` file
+Easiest method to do this is to run:
+```bash
+pip install -r requirements.txt
+```
+But if your really lazy, just run the `install.sh` file:
+
+**Linux/MacOS**
+```bash
+bash install.sh
+or
+sh install.sh
+```
+**Windows**
+There is currently no port of Rhythmbox on linux.
 <p>But if you want to install these modules manually:</p>
 
 - lyricsgenius
