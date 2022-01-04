@@ -8,6 +8,7 @@
 - Run the python file (Preferably just run the .sh file)
 - Wait for it to to finish, and tada!
 - You can also create an alias in your .bash_profile, example:
+
 **Linux/MacOS**
 ```bash
 alias lyric-finder="bash /home/ae/Py/rhythmbox-lyricfinder/run.sh"
