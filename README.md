@@ -3,18 +3,26 @@
 ![preview](https://github.com/crue-ton/rhythmbox-lyricfinder/blob/main/assets/preview.png?raw=true)
 
 ## HOW TO USE ##
-- Set up a API Client on genius ([Click this to see how](https://github.com/crue-ton/rhythmbox-lyricfinder#how-to-set-up-genius-api-client))
 - Just have a song playing on Rhythmbox
-- Run the python file (Preferably just run the .sh file)
-- Wait for it to to finish, and tada!
-- You can also create an alias in your .bash_profile, example:
-
-**Linux/MacOS**
+- Run:
 ```bash
-alias lyric-finder="bash /home/ae/Py/rhythmbox-lyricfinder/run.sh"
-or
-alias lyric-finder="sh /home/ae/Py/rhythmbox-lyricfinder/run.sh"
+rhythmbox-lyrcfinder
 ```
+- Wait for it to to finish, and tada!
+
+## HOW TO SET UP ##
+- Clone this repo and then go into it
+```bash
+git clone https://github.com/crue-ton/rhythmbox-lyricfinder
+cd rhythmbox-lyricfinder
+```
+- Run this:
+```bash
+sudo make
+or
+doas make
+```
+
 ## HOW TO SET UP GENIUS API CLIENT ##
 - Go to https://https://genius.com/signup_or_login
 - Create an account
