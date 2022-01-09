@@ -42,7 +42,7 @@ doas make
 - Click `Generate Access Token` which is under Client Access Token
 - Go in to main.py
 - Go to line where it says: `genius = lyricsgenius.Genius('Insert-Key-Here!')`
-- Replace the text that is in the quotes with you Access Token
+- Replace the text that is in the quotes with your Access Token
 
 ## CREDITS ##
 [crue-ton on github](https://github.com/crue-ton)
