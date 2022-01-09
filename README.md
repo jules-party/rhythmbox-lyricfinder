@@ -16,12 +16,14 @@ rhythmbox-lyrcfinder
 git clone https://github.com/crue-ton/rhythmbox-lyricfinder
 cd rhythmbox-lyricfinder
 ```
-- Run this:
+- Refer to to ([This](https://github.com/crue-ton/rhythmbox-lyricfinder#how-to-set-up-genius-api-client)) and ([this also](https://github.com/crue-ton/rhythmbox-lyricfinder#access-key-setup)) to get everything setup.
+- Run this when your done setting it up:
 ```bash
 sudo make
 or
 doas make
 ```
+- Then your done!
 
 ## HOW TO SET UP GENIUS API CLIENT ##
 - Go to https://https://genius.com/signup_or_login
@@ -33,34 +35,14 @@ doas make
 - For both the `App Wesbite URL` and `Redirect URL`, just put http://example.com/ in both fields
 - Then Tada! You're Finished with the setting up the API Client!
 
-## ACCESS KEY SET UP ##
+## ACCESS KEY SETUP ##
 - Go to https://genius.com/api-clients
 - Make sure you've already set up a API client for this
 - Select the API client you've created
 - Click `Generate Access Token` which is under Client Access Token
 - Go in to main.py
-- Go to Line 22, and it should say `genius = lyricsgenius.Genius('Insert-Key-Here!')`
-- Replace the text that is in the quotes with you Access Token
-
-## MODULES TO INSTALL ##
-Easiest method to do this is to run:
-```bash
-pip install -r requirements.txt
-```
-But if your really lazy, just run the `install.sh` file:
-
-**Linux/MacOS**
-```bash
-bash install.sh
-or
-sh install.sh
-```
-**Windows**
-There is currently no port of Rhythmbox on linux.
-<p>But if you want to install these modules manually:</p>
-
-- lyricsgenius
-- colorama
+- Go to line where it says: `genius = lyricsgenius.Genius('Insert-Key-Here!')`
+- Replace the text that is in the quotes with your Access Token
 
 ## CREDITS ##
 [crue-ton on github](https://github.com/crue-ton)
