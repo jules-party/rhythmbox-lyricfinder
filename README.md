@@ -1,6 +1,6 @@
 # rhythmbox-lyricfinder
 
-![preview](https://github.com/crue-ton/rhythmbox-lyricfinder/blob/main/preview.png?raw=true)
+![preview](https://github.com/crue-ton/rhythmbox-lyricfinder/blob/main/assets/preview.png?raw=true)
 
 ## HOW TO USE ##
 - Set up a API Client on genius ([Click this to see how](https://github.com/crue-ton/rhythmbox-lyricfinder#how-to-set-up-genius-api-client))
