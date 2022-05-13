@@ -20,7 +20,7 @@ try:
 	# Print both artist name and the fixed song name
 	print(artistname)
 	print(songname)
-	genius = lyricsgenius.Genius('T3xqBrhm_vB_829x_YNn63DbTLOUVlr5g_E6vQhD2nwk0FjxBCPSem7Bi0YqY1ZS')
+	genius = lyricsgenius.Genius('api-key')
 
 	# vv used for testing vv
 	# artistname = input("Artist Name: ")
